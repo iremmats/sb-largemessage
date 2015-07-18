@@ -98,10 +98,6 @@
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\Collector.If.Azure.Logging\Collector.If.Azure.Logging.csproj">
-      <Project>{a58d4373-01b4-4b54-848f-ce0087348f00}</Project>
-      <Name>Collector.If.Azure.Logging</Name>
-    </ProjectReference>
     <ProjectReference Include="..\Iremmats.ServiceBus.LargeMessage\Iremmats.ServiceBus.LargeMessage.csproj">
       <Project>{b9951463-251a-47ae-9ba5-8ddec9864942}</Project>
       <Name>Collector.If.Azure.ServiceBus.LargeMessage</Name>
