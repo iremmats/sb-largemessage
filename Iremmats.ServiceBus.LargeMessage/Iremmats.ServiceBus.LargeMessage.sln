@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.22823.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Iremmats.ServiceBus.LargeMessage", "Iremmats.ServiceBus.LargeMessage\Iremmats.ServiceBus.LargeMessage.csproj", "{B9951463-251A-47AE-9BA5-8DDEC9864942}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tests", "Tests\Tests.csproj", "{4EA50FC2-B898-4CD8-A01E-35C33F26DC8E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B9951463-251A-47AE-9BA5-8DDEC9864942}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B9951463-251A-47AE-9BA5-8DDEC9864942}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B9951463-251A-47AE-9BA5-8DDEC9864942}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B9951463-251A-47AE-9BA5-8DDEC9864942}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4EA50FC2-B898-4CD8-A01E-35C33F26DC8E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4EA50FC2-B898-4CD8-A01E-35C33F26DC8E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4EA50FC2-B898-4CD8-A01E-35C33F26DC8E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4EA50FC2-B898-4CD8-A01E-35C33F26DC8E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
