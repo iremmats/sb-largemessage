@@ -4,9 +4,9 @@ Lib designed to let you send large messages over the Service Bus
 The basic usage is the following:
 
 Put a connection string to a Storage Account in your app.config
-      <connectionStrings>
-        <add name="ReferenceMessagesStorage" connectionString="{storage connection string goes here}" />
-      </connectionStrings>
+<connectionStrings>
+	<add name="ReferenceMessagesStorage" connectionString="{storage connection string goes here}" />
+</connectionStrings>
 
 Create an instance of the interface
 ReferenceMessage rfMsg = new ReferenceMessage();
@@ -27,10 +27,3 @@ Send myMsg to your service bus queue/topic in any way. What will end up on the s
 The receiver has to create an instance of the interface too and then retrieve the body. The receiver has to have a connection string to storage too but since the SasUri is used, it does not have to be the same one.
 ReferenceMessage rfMsg = new ReferenceMessage();
 string body = rfMsg.RetrieveBodyAsString(receivedMsg);
-
-
-
-
-
-
-
